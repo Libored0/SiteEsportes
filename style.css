@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  article{
+    text-align: center;
+  }
+
+  img{
+    width: 500px;
+    height: 300px;
+  }
+
+  button {
+    border-radius: 10px;
+    border: 2px solid black; /* Adicionando uma borda de 2px sólida preta */
+    background-color: #ffffff;
+    transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
+  }
+  
+  button:hover {
+    background-color: #1a1c1f;
+    color: #ffffff; /* Alterando a cor do texto quando o botão é hover */
+  }
+
+  .black-and-white {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .blue-contrast {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .green-contrast {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .yellow-contrast {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  /* Estilos para alinhar a navegação à direita */
+  .right-align {
+    margin-left: auto;
+  }
+
+  #newsletterForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px; /* Adicionando espaço extra acima do formulário */
+    margin-bottom: 50px;
+  }
+  
+  #newsletterForm label {
+    display: block;
+    margin-bottom: 10px;
+    color: #2d3e50; /* Azul escuro */
+  }
+  
+  #newsletterForm input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #newsletterForm button[type="submit"] {
+    background-color: #2ecc71; /* Verde */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave de cor */
+  }
+  
+  #newsletterForm button[type="submit"]:hover {
+    background-color: #27ae60; /* Verde mais escuro */
+  }
+
+
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Estilos de contraste */
+  .high-contrast {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  
